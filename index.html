@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HR Burnout Feedback</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-xl shadow-lg max-w-md w-full">
+    <h1 class="text-2xl font-bold text-center mb-4">🧠 Burnout Feedback Form</h1>
+    <p class="text-sm text-gray-600 mb-4">Submit your feelings anonymously. Our system will analyze it for signs of burnout.</p>
+    
+    <textarea id="feedbackInput" class="w-full p-3 border rounded-md" placeholder="Describe how you've been feeling at work..."></textarea>
+    <button id="submitBtn" class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Submit Feedback</button>
+    
+    <div id="resultArea" class="mt-4 text-center text-lg font-medium"></div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
